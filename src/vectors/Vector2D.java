@@ -88,6 +88,7 @@ public class Vector2D {
         if (anotherObject instanceof Vector2D) {
             Vector2D tmp=(Vector2D)anotherObject;
             return this.x==tmp.x && this.y==tmp.y;
+            
         } else {
             return false;
         }//else
